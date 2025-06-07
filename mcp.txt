@@ -1,0 +1,11 @@
+MCP
+- MCP standardizza il collegamento tra LLM e fonti di dati o strumenti esterni
+- Gli LLM hanno bisogno di essere integrati con dati e strumenti.
+
+- architettura client-server: 
+  - un host -> un programma che vuole accedere ai dati tramite mcp
+  - client MCP -> protocollo che si occupa di mantenere la connesione
+  - MCP Servers: Lightweight programs that each expose specific capabilities through the standardized Model Context Protocol
+  - Local Data Sources: Your computer’s files, databases, and services that MCP servers can securely access
+  - Remote Services: External systems available over the internet (e.g., through APIs) that MCP servers can connect to
+=== 
